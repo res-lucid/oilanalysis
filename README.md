@@ -5,7 +5,7 @@ training or the test set. It measures how much row-level splitting, preprocessin
 rows, and settings picked on the test fold raise the scores, and it lists the expert-assigned grades
 that a set of models agree should be different, so an expert can review them. Its main model is a
 nested dichotomy of logistic regressions (ND-LR), fitted with
-[ndscape](https://github.com/res-lucid/ndscape), which grades a sample through one binary decision
+[ndscape](https://github.com/res-lucid/ndscape), a Python package for nested dichotomies, which grades a sample through one binary decision
 per grade boundary, each with coefficients that can be read directly. It also includes the 2,110
 engine-oil samples used in the paper.
 

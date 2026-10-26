@@ -13,7 +13,7 @@ requires-python = ">=3.11"
 authors = [
     {name = "Maxwell Dix-Matthews"},
 ]
-keywords = ["oil-analysis", "condition-monitoring", "nested-dichotomy", "multiclass", "classification"]
+keywords = ["oil-analysis", "oil condition monitoring", "condition-monitoring", "nested-dichotomy", "nested dichotomies", "multiclass", "classification", "interpretable machine learning"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Intended Audience :: Science/Research",
